@@ -2,7 +2,7 @@
 
 ## 🧭 Overview
 This repository contains real-time audio experiments for the **STM32F746G-Discovery** board developed in **PlatformIO** (VS Code).  
-The project implements audio output, delay/echo effects, and tone synthesis using the on-board **WM8994** codec, following the *Modern Signal Processing* course at the **University of Washington Tacoma**.
+The project implements audio output, delay/echo effects, and tone synthesis using the on-board **WM8994** codec.
 
 ### Core Features
 - 🎵 8 kHz audio playback using SAI2 + DMA  
