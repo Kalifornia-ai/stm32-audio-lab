@@ -47,9 +47,6 @@ The project implements audio output, delay/echo effects, and tone synthesis usin
 
 ## 🛠️ Build & Run
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/stm32-audio-lab.git
-   cd stm32-audio-lab
 
 2. Open in PlatformIO (VS Code)
 
