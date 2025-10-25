@@ -1,0 +1,59 @@
+.pio
+# ---- STM32 + PlatformIO + VSCode .gitignore ----
+
+# OS / IDE junk
+.DS_Store
+.vscode/
+*.code-workspace
+*.swp
+
+# PlatformIO build artifacts
+.pio/
+.ccls-cache/
+*.elf
+*.bin
+*.hex
+*.dmp
+*.map
+*.o
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# STM32Cube generated intermediate files
+*.ioc
+*.lst
+*.dep
+*.uvoptx
+*.uvprojx
+*.launch
+Debug/
+Release/
+build/
+Core/
+Drivers/
+Middlewares/
+Utilities/
+
+# Lab zips and archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Data logs and tone output files
+tone*.txt
+*.csv
+
+# Matlab/analysis scratch files
+*.m~
+*.asv
+
+# Personal or local assets
+DSP-Edkits-Labs-main/
+Digital-Signal-Processing-Education-Kit/
+extra_flags.py
+test/
+lib/
